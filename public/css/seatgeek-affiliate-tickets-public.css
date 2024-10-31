@@ -1,0 +1,95 @@
+.sg_events a{
+    text-decoration: none!important;
+    color:#000!important;
+}
+
+.sg_events .sg_link{
+    padding: 20px;
+    align-items: center;
+}
+
+.sg_events ul{
+    list-style: none;
+    padding: 0;
+}
+.sg_events ul li{
+    margin: 10px 0px;
+    overflow: hidden;
+}
+.sg_events .sg_date{padding: 12px 0;}
+.sg_events .sg_month{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.sg_events .sg_time{
+    font-size: 18px;
+    display: block;
+    font-family: sans-serif;
+}
+
+.sg_events .sg_title h3{
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0;
+}
+.sg_events .sg_title h4{
+    font-size: 19px;
+    font-weight: normal;
+    margin: 0;
+    margin-top: 7px;
+    padding:0;
+}
+
+
+.sg_events .sg_button span{
+    background-color: #1673E6;
+    width: 144px;
+    padding: 10px 0;
+    display: block;
+    float: right;
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+.sg_events li:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(15, 15, 15, 0.12) 0px 8px 16px 0px;
+}
+
+.sg_events .sg_link:hover .sg_month,.sg_events .sg_link:hover h3{
+    color:#1673E6;
+}
+.sg_events #sg_load_more{
+    text-align:center;
+}
+
+.sg_events #sg_load_more button{
+    border:none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #1673E6;
+}
+.sg_events #sg_load_more img{
+    margin-left: 10px;
+    height: 17px;
+    display: none;
+}
+a.sg_link{
+    box-shadow: none!important;
+}
+
+@media only screen and (max-width: 600px) {
+ .sg_events .sg_title h4{
+    margin: 0;
+ }
+ .sg_events .sg_button span{
+    float:none;
+    margin-top: 10px;
+ }
+}
